@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --default-layout-width: 1150px;
+  --black005: rgba(0, 0, 0, 0.05);
+  --black01: rgba(0, 0, 0, 0.1);
+  --black02: rgba(0, 0, 0, 0.2);
+  --black03: rgba(0, 0, 0, 0.3);
+  --black05: rgba(0, 0, 0, 0.5);
+  --black07: rgba(0, 0, 0, 0.7);
+  --black: rgba(0, 0, 0);
+  --white005: rgba(255, 255, 255, 0.05);
+  --white01: rgba(255, 255, 255, 0.1);
+  --white015: rgba(255, 255, 255, 0.15);
+  --white02: rgba(255, 255, 255, 0.2);
+  --white025: rgba(255, 255, 255, 0.25);
+  --white03: rgba(255, 255, 255, 0.3);
+  --white05: rgba(255, 255, 255, 0.5);
+  --white08: rgba(255, 255, 255, 0.8);
+  --white: #fff;
+  --shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  --tex-color: rgb(57, 57, 57);
+  --300: 300;
+  --400: 400;
+  --500: 500;
+  --600: 600;
+  --700: 700;
+  --signature: #3da165;
+  --signature01: rgba(61, 161, 101, 0.1);
+  --signature015: rgba(61, 161, 101, 0.15);
+  --signature02: rgba(61, 161, 101, 0.2);
+  --high-speed: #46c818;
+  --medium-speed: hsl(41, 100%, 54%);
+  --low-speed: #f94040;
+  --buyer02: rgba(0, 72, 255, 0.15);
+  --buyer05: rgba(0, 72, 255, 0.4);
+  --buyer-light: rgb(40, 100, 251);
+  --buyer-dark: rgba(20, 77, 222, 0.8);
+  --seller02: rgba(255, 0, 0, 0.15);
+  --seller05: rgba(255, 0, 0, 0.4);
+  --seller-light: rgb(255, 46, 46);
+  --seller-dark: rgba(208, 33, 33, 0.8);
+  --held: rgba(231, 180, 0, 1);
+  --held05: rgba(231, 180, 0, 0.5);
+  --working: rgba(44, 170, 0, 1);
+  --working05: rgba(44, 170, 0, 0.5);
+  --traded: rgba(170, 0, 0, 1);
+  --traded05: rgba(170, 0, 0, 0.5);
+}
+
+.ex1 {
+  background-color: #6b871e;
+}
+.ex2 {
+  background-color: #28791a;
+}
+.ex3 {
+  background-color: #187177;
+}
+.ex4 {
+  background-color: #192873;
+}
+.ex5 {
+  background-color: #711e8f;
+}
+.ex6 {
+  background-color: #75142a;
+}
+.ex7 {
+  background-color: #887d1b;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: var(--white);
+  background-image: linear-gradient(
+    45deg,
+    #170d0d,
+    #04280a
+  );
+  background-size: fill;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.hidden {
+  opacity: 0;
+  transition: 1s ease-in;
+}
