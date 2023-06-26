@@ -1,10 +1,14 @@
-import { Icons } from "@/components/Icons/Icons";
+import { Icons } from "../../Icons/Icons";
 import React from "react";
 import UserAuthForm from "../UserAuthForm/UserAuthForm";
 import "./SignInModal.scss";
-import { Buttons } from "@/components/Buttons/Buttons";
-import 'Link' from 'next/Link'
-const SignInModal = ({ closedButton }: { closedButton?: boolean }) => {
+import { Buttons } from "../../Buttons/Buttons";
+import Link from "next/Link";
+const SignInModal = ({
+  closedButton,
+}: {
+  closedButton?: boolean;
+}) => {
   return (
     <div className="sign-in-modal">
       {closedButton ? (
@@ -17,8 +21,8 @@ const SignInModal = ({ closedButton }: { closedButton?: boolean }) => {
       <Icons.logo />
       <h1>Welcome Back</h1>
       <p className="policy">
-        By continuing, you are setting up a PemTalk account and agree to our
-        User Agreement and Privacy Policy.
+        By continuing, you are setting up a PemTalk account
+        and agree to our User Agreement and Privacy Policy.
       </p>
       <UserAuthForm />
       <p className="option">

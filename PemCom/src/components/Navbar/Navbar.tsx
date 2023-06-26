@@ -13,7 +13,7 @@ const Navbar = () => {
         <SearchBar />
       </div>
       <div className="navbar-item">
-        <p>Sign In</p>
+        <Link href="/sign-in">Sign In</Link>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-import SignInModal from "@/components/Auth/SignInModal/SignInModal";
 import React from "react";
+import SignInModal from "../../../components/Auth/SignInModal/SignInModal";
 import "./sign-in.scss";
 
 const page = () => {
